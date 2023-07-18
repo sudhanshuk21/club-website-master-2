@@ -1,0 +1,29 @@
+.project{
+    height: 150vh;
+    position: relative;
+    top: 100px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-bottom: 200px;
+}
+video{
+    /* height: 100%; */
+    /* width: 100%; */
+    object-fit: cover;
+    position: fixed;
+}
+
+.leftk{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+ .left img{
+    height: 200px;
+ }
+  

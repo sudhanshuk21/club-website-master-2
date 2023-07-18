@@ -1,0 +1,78 @@
+.navBar{
+    background-color: rgb(0,0,0,0.4);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    height: 80px;
+    z-index: 70;
+}
+.navBar.active{
+    background-color: #121111;
+}
+
+/* .navBar.active img{
+    /* filter: invert(); */
+/* } */ 
+/* CSS to logo  */
+.navBar img{
+    margin: 5px 10px;
+}
+.logo{
+    margin-left: 40px;
+}
+#iitk-logo{
+    width: 50px;
+    padding-right: 10px;
+    /* filter: invert(1); */
+}
+#aero-logo{
+    width: 50px;
+    /* filter: invert(1); */
+}
+
+/* CSS to menu  */
+.menu{
+    position: absolute;
+    right: 150px;
+    font-family: Ubuntu;
+    font-weight: bolder;
+}
+.menu-option{
+    display: flex;
+    list-style: none;
+}
+.nav-item{
+    margin: 0 30px;
+    font-size: 20px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:900px){
+    .menu{
+        position: absolute;
+        right: 90px;
+    }
+}
+.pop{
+    display: none;
+    z-index: 100;
+    position: fixed;
+    top: 75px;
+    text-align: center;
+    color: indigo;
+    background-color:#b6d4fe;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+@media(max-width:576px){
+    .pop{
+        display: block;
+    }
+}
